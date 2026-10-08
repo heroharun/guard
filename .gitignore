@@ -1,0 +1,12 @@
+# runtime artifacts
+captures/
+*.log
+*_shot.jpg
+__pycache__/
+*.pyc
+.DS_Store
+
+# never commit filled plists (they contain your Slack token)
+com.pcguard.guard.plist
+com.pcguard.capture.plist
+com.harun.*.plist

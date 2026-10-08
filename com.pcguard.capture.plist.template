@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.pcguard.capture</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__IMAGESNAP__</string>
+    <string>-w</string><string>0.5</string>
+    <string>__GUARD_DIR__/captures/_shot.jpg</string>
+  </array>
+  <key>StandardErrorPath</key><string>__GUARD_DIR__/capture_helper.log</string>
+</dict>
+</plist>
